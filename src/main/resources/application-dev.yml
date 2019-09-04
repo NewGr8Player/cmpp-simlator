@@ -1,0 +1,19 @@
+server:
+  port: 8099
+simulator:
+  config:
+    #监听端口
+    listen-port: 7890
+    #链接空闲时间，超时未发送或者接收数据，断开连接，单位：秒
+    idle-seconds: 1000
+    # 每秒流量数，超过流量返回状态码 8 (cmpp 协议规定)
+    flow-limit: 20000
+    # client 登陆用户名
+    username: 917107
+    # client 登陆密码
+    password: 917107
+    # 是否对客户端鉴权
+    need-validate: true
+logging:
+  level:
+    com.xavier.cmpp: debug
