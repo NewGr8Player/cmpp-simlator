@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "simulator.config",
+      "type": "com.xavier.cmpp.config.SimulatorConfig",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "simulator.config.flow-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig",
+      "defaultValue": 20000
+    },
+    {
+      "name": "simulator.config.idle-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig",
+      "defaultValue": 1000
+    },
+    {
+      "name": "simulator.config.listen-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig",
+      "defaultValue": 7890
+    },
+    {
+      "name": "simulator.config.need-validate",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "simulator.config.password",
+      "type": "java.lang.String",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig"
+    },
+    {
+      "name": "simulator.config.username",
+      "type": "java.lang.String",
+      "sourceType": "com.xavier.cmpp.config.SimulatorConfig"
+    }
+  ],
+  "hints": []
+}
