@@ -161,7 +161,7 @@ public class CmppServerHandler extends ChannelHandlerAdapter {
         }
         if (log.isDebugEnabled()) {
             try {
-                log.debug(new String(submit.getMsgContent()));
+                log.debug("解码后内容:【{}】", new String(submit.getMsgContent()));
                 log.trace("解码完成");
             } catch (Exception e) {
                 log.warn("解码失败!");
