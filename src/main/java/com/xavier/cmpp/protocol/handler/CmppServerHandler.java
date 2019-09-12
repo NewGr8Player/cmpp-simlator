@@ -84,7 +84,7 @@ public class CmppServerHandler extends ChannelHandlerAdapter {
         executorService.execute(
                 () -> {
                     CmppHead cmppMsg = (CmppHead) msg;
-                    log.debug("Seq_id:{}", cmppMsg.getSecquenceId());
+                    log.debug("Seq_id:【{}】", cmppMsg.getSecquenceId());
                     cmppMsg.doDecode();
                     switch (cmppMsg.getCommandId()) {
                         case CMPPConstant.APP_SUBMIT:
